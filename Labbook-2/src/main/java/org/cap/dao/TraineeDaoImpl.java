@@ -56,7 +56,7 @@ public class TraineeDaoImpl implements ITraineeDao{
 	
 	public boolean loginVerify(String username,String password) {
 		
-		if(username.equals("rahul@123") || password.equals("rahul@123")) {
+		if(username.equals("system") || password.equals("pass1234")) {
 			return true;
 		}
 	
